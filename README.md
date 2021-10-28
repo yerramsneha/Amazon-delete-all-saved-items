@@ -28,7 +28,8 @@ function deleteSavedItems()
 
 	var query = document.querySelectorAll("#sc-saved-cart input[value=Delete]")
 	
-	if (query.length) {
+	if (query.length) 
+	{
 	
 		query[0].click();
 		
@@ -36,13 +37,14 @@ function deleteSavedItems()
 	
 	if (query.length > 1) 
 	
-  {
+ 	 {
 	
 		setTimeout(deleteSavedItems,100);
 		
 	}
 	
-	else {
+	else 
+	{
 	
 		console.log('Finished');
 		
